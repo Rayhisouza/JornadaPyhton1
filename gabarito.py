@@ -1,6 +1,3 @@
-# Curso online de 4 dias de python a neste curso foi ensinado que a forma melhor de começar qualquer código é escrendo do nosso jeito mesmo cada passo a passo do processo que queremos fazer ou obter neste projeto.
-
-# Outro ponto para eu saber, existem, assim como a maioria das linguagens, bibliotecas que facilitam na hora de criar os código, uma delas do python é a pyautogui e outra o pandas.
 
 # Passo a passo do projeto
 # Passo 1: Entrar no sistema da empresa 
@@ -11,7 +8,7 @@
 import pyautogui
 import time
 
-pyautogui.FAILSAFE = True #Isso significa que se você mover o mouse para o canto superior esquerdo da tela (0,0), o pyautogui dispara um erro e interrompe imediatamente a automação.
+pyautogui.FAILSAFE = True 
 
 # pyautogui.write -> escrever um texto
 # pyautogui.press -> apertar 1 tecla
@@ -81,4 +78,5 @@ for linha in tabela.index: # em python qundo eu quero dizer que as linhas seguin
     pyautogui.press("enter") # cadastra o produto (botão enviar)
     # dar scroll de tudo pra cima
     pyautogui.scroll(5000)
+
     # Passo 5: Repetir o processo de cadastro até o fim. Esse scroll vai fazer a tela voltar para o inicio e começar novamente o processo de cadastro. essa numeração é baseado no tamanho da tela contudo o macete pe colocar um valor muito alto, pois uma vez que a barra de rolagem atinge o topo ela não continua rolando mais. E outro ponto é, se for positivo rola para cima, se for negativo para baixo. 
