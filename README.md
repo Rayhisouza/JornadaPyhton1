@@ -1,2 +1,2 @@
 # JornadaPyhton1
-Projeto feito durante uma imersão de 4 dias de aulas online para aprender projetos em Python
+This project was created during a 4-day online immersion course to learn Python design.
